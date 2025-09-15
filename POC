@@ -2,6 +2,6 @@
 
 Step1: Log in as an editor-privileged user (low-privileged account).
 Step2: Navigate to the vulnerable endpoint:
-•	/AcoraCMS/Admin/file_manager/file_rename.asp?repository=cmfr_system&rootdisplay=System%20Files&rootpath=D:\Web\xxxxxxxxxxxxhost_namexxxxx\App_Data\AcoraCMS\&path=&file=targetfile.ext
+•	/AcoraCMS/Admin/file_manager/file_rename.asp?repository=cmfr_system&rootdisplay=System%20Files&rootpath=X:\xxx\xxxxxxxxxxxxhost_namexxxxx\App_xxxx\AcoraCMS\&path=&file=targetfile.ext
 Step3: In the interface or via direct request, enter a new file name (e.g., renamedfile.ext) and submit the request.
 Step4: Observe that the file is renamed successfully, despite the action being restricted to admin users.
